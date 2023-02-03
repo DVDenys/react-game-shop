@@ -5,8 +5,10 @@ VARIABLES
   --color-black:      #000;
   --color-white:      #fff;
   --color-dark-blue:  #191A1C;
+  --color-cart-blue:  #242529;
   
   --spacing-ultrasmall: 5px;
+  --margin-list:        7px;
   --spacing-small:      10px;
   --spacing-medium:     20px;
   --spacing-large:      30px;
@@ -15,16 +17,14 @@ VARIABLES
   --font-size-subheader: 18px;
   --font-size-main:      16px;
 
-  --margin-list: 7px;
-
-  --width-max: 1200px;
-
   --font-family-main: sans-serif;
-  --transition: .4s;
   --font-bold: 600;
 
   --border-radius-small: 3px;
   --border-radius-medium: 5px;
+
+  --width-max: 1200px;
+  --transition: .4s;
 }
 
 /***************************************************
@@ -52,7 +52,7 @@ SCROLL
 
 /* Firefox */
 * {
-  scrollbar-color: rgb(37, 56, 97);
+  scrollbar-color: rgb(95, 95, 95);
   scrollbar-width: thin;
 }
 
@@ -62,7 +62,7 @@ SCROLL
   height: 8px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(37, 56, 97);
+  background-color: rgb(95, 95, 95);
   border-radius: 2px;
 }
 ::-webkit-scrollbar-track {

@@ -1,17 +1,15 @@
-import PropTypes from 'prop-types';
+import GameItem from '@components/GameItem';
 
-import styles from './HomePage.module.css';
+import { GAMES } from '@constants/games';
+
+import './HomePage.css';
 
 const HomePage = () => {
     return (
-        <>
-            Home Page
-        </>
+        <section className='home-page'>
+            {GAMES.map(game => <GameItem game={game} key={game.id}/>)}
+        </section>
     )
 }
-
-// HomePage.propTypes = {
-//     text: PropTypes.string
-// }
 
 export default HomePage;
