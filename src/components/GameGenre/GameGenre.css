@@ -1,0 +1,9 @@
+.game-genre {
+    background-color: var(--color-gray);
+    padding: var( --spacing-ultrasmall);
+    font-size: var(--font-size-small);
+    border-radius: var(--border-radius-medium);
+}
+.game-genre:not(:last-child) {
+    margin-right: var(--margin-list);
+}

@@ -18,26 +18,26 @@ export const Small = Template.bind({});
 
 Small.args = {
     ...props,
-    size: 'small',
+    size: 's',
 };
 
-// export const Light = Template.bind({});
+export const Medium = Template.bind({});
 
-// Light.args = {
-//     ...props,
-//     theme: 'light',
-// };
+Medium.args = {
+    ...props,
+    size: 'm',
+};
 
-// export const Dark = Template.bind({});
+export const Primary = Template.bind({});
 
-// Dark.args = {
-//     ...props,
-//     theme: 'dark',
-// };
+Primary.args = {
+    ...props,
+    type: 'primary',
+};
 
-// export const Disabled = Template.bind({});
+export const Secondary = Template.bind({});
 
-// Disabled.args = {
-//     ...props,
-//     disabled: true,
-// };
+Secondary.args = {
+    ...props,
+    type: 'secondary',
+};

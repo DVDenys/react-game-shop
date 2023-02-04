@@ -19,7 +19,7 @@
     font-weight: var(--font-bold);
 }
 .game-item__genre {
-    margin-top: var(--spacing-small);
+    margin-top: var(--spacing-ultrasmall);
     display: flex;
     flex-wrap: wrap;
 }
@@ -28,7 +28,8 @@
     font-size: var(--font-size-main);
 }
 .game-item__buy {
-    position: relative;
+    position: absolute;
     right: 0;
-    bottom: -12px;
+    bottom: 0;
+    padding: var(--spacing-small) var(--spacing-medium);
 }

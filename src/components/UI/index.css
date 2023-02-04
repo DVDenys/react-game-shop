@@ -1,6 +1,6 @@
 :root {
     --font-size-small: 14px;
-    --font-size-medium: 16px;
+    --font-size-medium: 18px;
     --font-family-main: sans-serif;
     --font-bold: 600;
 
@@ -8,7 +8,17 @@
     --color-lightgray: #dfe2df;
     --color-black:     #000;
     --color-gray:      #9c9c9c;
-    --corol-blue:      #6a83fb;
+    --color-blue:      #6a83fb;
+    --color-blue-light:#6171c3a8;
+
+    --spacing-ultrasmall: 5px;
+    --margin-list:        7px;
+    --spacing-small:      10px;
+    --spacing-medium:     20px;
+    --spacing-large:      30px;
+
+    --border-radius-small: 3px;
+    --border-radius-medium: 5px;
 
     --transition: .4s;
 }
