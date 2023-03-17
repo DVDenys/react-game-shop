@@ -6,7 +6,7 @@ import "./UiButton.css";
 
 const UiButton = ({ onClick, type, children, size = "s" }) => {
   const bntClass = cn({
-    "btn": true,
+    btn: true,
     "btn-secondary": type === "secondary",
     "btn-primary": type === "primary",
     "btn-small": size === "s",

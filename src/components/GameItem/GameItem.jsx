@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import GameCover from "../GameCover";
 import GameBuy from "../GameBuy";
 import GameGenre from "../GameGenre";
-import styles from "./GameItem.css";
+import "./GameItem.css";
 
 const GameItem = ({ game }) => {
   return (
@@ -11,7 +11,7 @@ const GameItem = ({ game }) => {
       <div className="game-item__details">
         <span className="game-item__title">{game.title}</span>
         <div className="game-item__genre">
-          {game.genres.map(( genre, index) => (
+          {game.genres.map((genre, index) => (
             <GameGenre key={index} genre={genre} />
           ))}
         </div>

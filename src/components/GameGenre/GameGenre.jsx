@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import styles from "./GameGenre.css";
+import "./GameGenre.css";
 
 const GameGenre = ({ genre }) => {
   return <span className="game-genre">{genre}</span>;
