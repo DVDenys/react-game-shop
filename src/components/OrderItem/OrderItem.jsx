@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import GameCover from "@components/GameCover";
 import { useDispatch } from "react-redux";
 import { deleteItemFromCart } from "@store/cart/reducer";
@@ -30,6 +31,10 @@ const OrderItem = ({ game }) => {
       </div>
     </div>
   );
+};
+
+OrderItem.propTypes = {
+  game: PropTypes.object,
 };
 
 export default OrderItem;

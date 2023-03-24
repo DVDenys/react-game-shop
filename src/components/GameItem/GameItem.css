@@ -7,26 +7,32 @@
     border-radius: var(--border-radius-medium);
     position: relative;
 }
+
 .game-item:not(:last-child) {
     margin-bottom: var(--spacing-medium);
     margin-right: var(--spacing-large);
 }
+
 .game-item__details {
     padding: var(--spacing-small) var(--spacing-medium);
 }
+
 .game-item__title {
     font-size: var(--font-size-subheader);
     font-weight: var(--font-bold);
 }
+
 .game-item__genre {
     margin-top: var(--spacing-ultrasmall);
     display: flex;
     flex-wrap: wrap;
 }
+
 .game-item__description {
     margin-top: var(--spacing-small);
     font-size: var(--font-size-main);
 }
+
 .game-item__buy {
     position: absolute;
     right: 0;

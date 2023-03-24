@@ -1,17 +1,20 @@
 .header {
     margin-bottom: var(--spacing-large);
 }
+
 .header__container {
     min-height: 80px;
     display: flex;
     align-items: stretch;
 }
+
 .header__nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
+
 .header__list {
     width: 100%;
     margin: 0;
@@ -20,12 +23,13 @@
     align-items: center;
     justify-content: space-between;
 }
-.header__list-cart {
-    
-}
+
+.header__list-cart {}
+
 .header__list-item {
     list-style-type: none;
 }
+
 .header__list-link {
     font-size: var(--font-size-header);
     color: var(--color-white);

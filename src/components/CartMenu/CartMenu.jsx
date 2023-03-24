@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import UiButton from "@components/UI/UiButton";
 import CartItem from "@components/CartItem";
 import { calcTotalPrice } from "@utils";
@@ -34,6 +36,11 @@ const CartMenu = ({ items, onClick }) => {
       </div>
     </>
   );
+};
+
+CartMenu.propTypes = {
+  items: PropTypes.array,
+  onClick: PropTypes.func,
 };
 
 export default CartMenu;

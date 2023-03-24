@@ -5,10 +5,12 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .cart-item__price {
     display: flex;
     align-items: center;
 }
+
 .cart-item__delete-icon {
     margin-left: var(--spacing-ultrasmall);
     cursor: pointer;

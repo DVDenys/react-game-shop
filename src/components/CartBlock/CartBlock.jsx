@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import { useSelector } from "react-redux";
 import { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -38,9 +37,5 @@ const CartBlock = () => {
     </div>
   );
 };
-
-// CartBlock.propTypes = {
-//     text: PropTypes.string
-// }
 
 export default CartBlock;

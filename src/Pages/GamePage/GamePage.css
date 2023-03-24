@@ -1,22 +1,25 @@
-.game-page {
-    
-}
-.game-page__title {
-}
+.game-page {}
+
+.game-page__title {}
+
 .game-page__content {
     display: flex;
 }
+
 .game-page__left {
     width: 70%;
 }
+
 .game-page__right {
     width: 30%;
 }
+
 .secondary-text {
     color: var(--color-secondary-text);
 }
+
 .game-page__buy-game {
     display: flex;
     justify-content: flex-end;
-    margin-top: var( --spacing-medium);
+    margin-top: var(--spacing-medium);
 }

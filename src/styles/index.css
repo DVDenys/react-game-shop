@@ -2,21 +2,21 @@
 VARIABLES
 /***************************************************/
 :root {
-  --color-black:      #000;
-  --color-white:      #fff;
-  --color-dark-blue:  #191A1C;
-  --color-cart-blue:  #242529;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-dark-blue: #191A1C;
+  --color-cart-blue: #242529;
   --color-secondary-text: #505254;
-  
-  --spacing-ultrasmall: 5px;
-  --margin-list:        7px;
-  --spacing-small:      10px;
-  --spacing-medium:     20px;
-  --spacing-large:      30px;
 
-  --font-size-header:    26px;
+  --spacing-ultrasmall: 5px;
+  --margin-list: 7px;
+  --spacing-small: 10px;
+  --spacing-medium: 20px;
+  --spacing-large: 30px;
+
+  --font-size-header: 26px;
   --font-size-subheader: 18px;
-  --font-size-main:      16px;
+  --font-size-main: 16px;
 
   --font-family-main: sans-serif;
   --font-bold: 600;
@@ -30,9 +30,12 @@ VARIABLES
 /***************************************************
 GENERAL
 /***************************************************/
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -61,13 +64,16 @@ SCROLL
   width: 8px;
   height: 8px;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: rgb(95, 95, 95);
   border-radius: 2px;
 }
+
 ::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, .7);
 }
+
 ::-webkit-scrollbar-corner {
   background-color: rgba(0, 0, 0, .7);
 }

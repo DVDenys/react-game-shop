@@ -3,10 +3,12 @@
     align-items: center;
     position: relative;
 }
+
 .cart-block__icon {
     cursor: pointer;
     position: relative;
 }
+
 .cart-block__total-price {
     margin-left: var(--spacing-medium);
     font-size: var(--font-size-subheader);

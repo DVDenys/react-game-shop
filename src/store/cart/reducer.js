@@ -13,7 +13,7 @@ const cartSlice = createSlice({
       state.itemsInCart = state.itemsInCart.filter(
         (game) => game.id !== action.payload
       );
-    }
+    },
   },
 });
 
