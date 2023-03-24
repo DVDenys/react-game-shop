@@ -1,12 +1,21 @@
 import PropTypes from "prop-types";
-import GameCover from "../GameCover";
-import GameBuy from "../GameBuy";
-import GameGenre from "../GameGenre";
+import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router";
+import GameCover from "@components/GameCover";
+import GameBuy from "@components/GameBuy";
+import GameGenre from "@components/GameGenre";
+import { setCurrentGame } from "@store/games/reducer";
 import "./GameItem.css";
 
 const GameItem = ({ game }) => {
+  const history = useNavigate();
+  const dispatch = useDispatch();
+  const handleClick = () => {
+    dispatch(setCurrentGame(game));
+    history(`/app/${game.title}`);
+  };
   return (
-    <article className="game-item">
+    <article className="game-item" onClick={handleClick}>
       <GameCover image={game.image} />
       <div className="game-item__details">
         <span className="game-item__title">{game.title}</span>

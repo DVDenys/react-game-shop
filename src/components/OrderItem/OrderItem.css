@@ -1,0 +1,17 @@
+.order-item {
+    display: flex;
+    margin-bottom: var(--spacing-large);
+}
+.order-item__cover {
+    width: 200px;
+    margin-right: var(--spacing-large);
+}
+.order-item__title {
+    font-style: var(--font-size-header);
+    font-weight: bold;
+}
+.order-item__price {
+    font-style: var(--font-size-header);
+    font-weight: bold;
+    margin-left: auto;
+}
