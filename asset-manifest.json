@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-game-shop/static/css/main.17bfc9cc.css",
-    "main.js": "/react-game-shop/static/js/main.37749fab.js",
+    "main.js": "/react-game-shop/static/js/main.c0105234.js",
     "static/media/forza_5.jpeg": "/react-game-shop/static/media/forza_5.0e2dcfe9e5adfce4c481.jpeg",
     "static/media/assassins_creed_valhalla.png": "/react-game-shop/static/media/assassins_creed_valhalla.f9a0fe6702599c24aa05.png",
     "static/media/life_is_strange_true_colors.jpeg": "/react-game-shop/static/media/life_is_strange_true_colors.b8efa83ef5ed1e8a2a5f.jpeg",
@@ -10,10 +10,10 @@
     "static/media/rainbow_siege.jpeg": "/react-game-shop/static/media/rainbow_siege.7de9ce326c092b7bbc21.jpeg",
     "index.html": "/react-game-shop/index.html",
     "main.17bfc9cc.css.map": "/react-game-shop/static/css/main.17bfc9cc.css.map",
-    "main.37749fab.js.map": "/react-game-shop/static/js/main.37749fab.js.map"
+    "main.c0105234.js.map": "/react-game-shop/static/js/main.c0105234.js.map"
   },
   "entrypoints": [
     "static/css/main.17bfc9cc.css",
-    "static/js/main.37749fab.js"
+    "static/js/main.c0105234.js"
   ]
 }
