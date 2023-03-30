@@ -1,0 +1,1 @@
+export const REPO_NAME = "react-game-shop"

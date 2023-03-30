@@ -6,7 +6,7 @@
     width: 400px;
     padding: var(--spacing-small) var(--spacing-medium);
     z-index: 2;
-    border-radius: 15px;
+    border-radius: var(--border-radius-medium);
 }
 
 .cart-menu__games-list {

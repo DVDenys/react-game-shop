@@ -1,9 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { getLocalStorage } from "@utils";
 
 const cartSlice = createSlice({
   name: "cart",
   initialState: {
-    itemsInCart: [],
+    itemsInCart: getLocalStorage("store")
+      ? getLocalStorage("store").cart.itemsInCart
+      : [],
   },
   reducers: {
     setItemInCart: (state, action) => {

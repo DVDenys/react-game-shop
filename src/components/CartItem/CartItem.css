@@ -12,6 +12,6 @@
 }
 
 .cart-item__delete-icon {
-    margin-left: var(--spacing-ultrasmall);
+    margin-left: var(--spacing-small);
     cursor: pointer;
 }

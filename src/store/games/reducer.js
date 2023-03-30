@@ -1,9 +1,14 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { getLocalStorage } from "@utils";
+
+console.log();
 
 const gamesSlice = createSlice({
   name: "games",
   initialState: {
-    currentGame: null,
+    currentGame: getLocalStorage("store")
+      ? getLocalStorage("store").game.currentGame
+      : null,
   },
   reducers: {
     setCurrentGame: (state, action) => {

@@ -10,6 +10,10 @@
     width: 70%;
 }
 
+.game-page__left iframe {
+    border-radius: var(--border-radius-medium);
+}
+
 .game-page__right {
     width: 30%;
 }

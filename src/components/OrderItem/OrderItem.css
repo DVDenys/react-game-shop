@@ -11,10 +11,15 @@
 .order-item__title {
     font-style: var(--font-size-header);
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 .order-item__price {
     font-style: var(--font-size-header);
     font-weight: bold;
     margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -1,12 +1,12 @@
 import { useSelector } from "react-redux";
 import OrderItem from "@components/OrderItem";
-import { calcTotalPrice } from "@utils";
+import { calcTotalPrice, morph } from "@utils";
 import "./OrderPage.css";
 
 const OrderPage = () => {
   const items = useSelector((state) => state.cart.itemsInCart);
 
-  if (items.lenght < 1) {
+  if (items.length < 1) {
     return <h1>Ваша корзина пуста</h1>;
   }
 
@@ -20,7 +20,7 @@ const OrderPage = () => {
       <div className="order-page__right">
         <div className="order-page__total-price">
           <span>
-            {items.lenght} товаров на сумму {calcTotalPrice(items)} ₴
+            {items.length} {morph(items.length)} на сумму {calcTotalPrice(items)} ₴
           </span>
         </div>
       </div>

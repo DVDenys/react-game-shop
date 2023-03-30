@@ -3,6 +3,6 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    border-top-left-radius: var(--border-radius-medium);
-    border-top-right-radius: var(--border-radius-medium);
+    border-radius: var(--border-radius-medium);
+    /* border-top-right-radius: var(--border-radius-medium); */
 }
