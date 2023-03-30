@@ -4,8 +4,8 @@ import { getLocalStorage } from "@utils";
 const cartSlice = createSlice({
   name: "cart",
   initialState: {
-    itemsInCart: getLocalStorage("store")
-      ? getLocalStorage("store").cart.itemsInCart
+    itemsInCart: getLocalStorage("storeGS")
+      ? getLocalStorage("storeGS").cart.itemsInCart
       : [],
   },
   reducers: {

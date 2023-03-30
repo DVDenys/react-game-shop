@@ -6,8 +6,8 @@ console.log();
 const gamesSlice = createSlice({
   name: "games",
   initialState: {
-    currentGame: getLocalStorage("store")
-      ? getLocalStorage("store").game.currentGame
+    currentGame: getLocalStorage("storeGS")
+      ? getLocalStorage("storeGS").game.currentGame
       : null,
   },
   reducers: {

@@ -11,5 +11,5 @@ export const store = configureStore({
 });
 
 store.subscribe(() => {
-  setLocalStorage("store", store.getState());
+  setLocalStorage("storeGS", store.getState());
 });
